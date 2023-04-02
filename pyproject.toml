@@ -1,10 +1,16 @@
-[project]
-name = "test"
+[tool.poetry]
+name = "pdm-test"
 version = "0.1.0"
 description = ""
-authors = [{ name = "hemengyang", email = "hmy0119@gmail.com" }]
-dependencies = [
-    "nonebot-adapter-console @ git+https://github.com/nonebot/adapter-console.git",
-]
-requires-python = ">=3.11"
-license = { text = "MIT" }
+authors = ["hemengyang <hmy0119@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pdm_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nonebot-adapter-console = {git = "https://github.com/nonebot/adapter-console.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
