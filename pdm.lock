@@ -171,8 +171,8 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 
 [metadata]
 lock_version = "4.2"
-groups = ["default", "test"]
-content_hash = "sha256:f0e790e43ae725744ab48d63b922709eb99a963ac0f7f017f2d543b57b847ce5"
+groups = ["default"]
+content_hash = "sha256:4af8a2bff2847a99504f3ea874f333c500a5761aeb1f54afb508c656ca90f332"
 
 [metadata.files]
 "colorama 0.4.6" = [

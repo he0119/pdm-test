@@ -1,9 +1,3 @@
-[tool.pdm]
-[tool.pdm.dev-dependencies]
-test = [
-    "nonebot-adapter-console @ git+https://github.com/nonebot/adapter-console.git",
-]
-
 [project]
 name = ""
 version = ""
@@ -12,7 +6,8 @@ authors = [
     {name = "hemengyang", email = "hmy0119@gmail.com"},
 ]
 dependencies = [
-    "nonebot-adapter-console>=0.3.2",
+    "nonebot-adapter-console @ git+https://github.com/nonebot/adapter-console.git",
 ]
 requires-python = ">=3.11"
 license = {text = "MIT"}
+  
